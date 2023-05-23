@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #252B42;
+
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.nav-link {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-left: 15px !important
+}
+
+.login-link {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-right: 40px !important;
+    margin-top: 5px
+}
+
+.navbar-brand {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: top;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    padding-right: 35px;
+
+
+}
+
+.become-member-btn {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+
+.section1 {
+    background: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 880px;
+    width: 100%;
+    margin-top: -200px;
+    background-position: center center;
+    margin-bottom: 40px;
+
+}
+
+.section1-first-col-headline {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+
+}
+
+
+.section1-first-col-sub-headline {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 123%;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    fill: solid;
+    margin-top: 35px;
+    margin-bottom: 30px
+}
+
+.get-quote-now-btn {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    border: none;
+    padding: 13px 30px;
+    margin-bottom: 15px;
+
+}
+
+.learn-more-btn {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 13px 30px;
+    background-color: transparent;
+    margin-left: 10px
+}
+
+.form-title {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: top;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 30px;
+
+
+}
+
+.booking-form label {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+
+.booking-form input::placeholder,
+.booking-form select {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+
+}
+
+.booking-form input,
+.booking-form select {
+    background-color: #F9F9F9;
+    padding: 10px 15px
+}
+
+.booking-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px
+}
+
+.section1-first-col {
+    padding-top: 360px !important
+}
+
+.section2-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.section2-sub-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.section2-card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 25px;
+    margin-left: 15px
+}
+
+.section2-card {
+    margin-bottom: 20px;
+}
+
+.section3-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.section3-sub-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.section3-card {
+    background-color: #FFFFFF;
+
+
+}
+
+.section3-card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: top;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+
+.section3-card-sub-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: -10px
+}
+
+.section3-card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 15px
+}
+
+.section3-card-right-div {
+
+    padding: 40px 40px 40px 25px
+}
+
+.section3 {
+    margin-top: 100px
+}
+
+
+.section4-headline {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+
+}
+
+.section4-sub-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 80px
+}
+
+.section4-card {
+    background-color: #FFFFFF;
+    margin-bottom: 22px
+}
+
+.section4-card-headline {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-top: 5px
+}
+
+.section4-card-text {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+
+}
+
+.section4 {
+    margin-top: 140px
+}
+
+.section5-headline {
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+
+
+}
+
+.section5-sub-headline {
+
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+
+
+}
+
+.section5-card {
+    background-color: #FFFFFF;
+    padding: 45px !important;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #23A6F0;
+    margin-bottom: 25px;
+}
+
+.section5-card>div {
+    width: 50%;
+}
+
+.section5-card-headline {
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: top;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+
+}
+
+.section5-card-text {
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+
+}
+
+
+.price {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+
+}
+
+.dollar-sign {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+
+}
+
+.section5-card-per-month {
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #8EC2F2;
+    margin-top: -15px;
+
+}
+
+.try-for-free-btn {
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    border: none;
+    padding: 13px 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.section5 {
+    margin-top: 140px
+}
+
+
+.section5-card-right-div {
+    padding-left: 25px;
+}
+
+.section6-headline {
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: top;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+
+}
+
+.section6-sub-headline {
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+.contact-us-btn {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.footer-title {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+
+}
+
+.footer-link,
+.footer-contact-info {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+}
+
+.copyright-headline {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+
+
+}
+
+
+
+
+@media screen and (max-width:1199px) {
+
+    .hero-btn-container {
+        display: block !important;
+    }
+}
+
+.section1-last-col {
+    padding-top: 260px !important;
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+@media screen and (max-width:991px) {
+    .section1-last-col {
+        padding-top: 75px !important
+    }
+
+    .section6-right-col {
+        text-align: left !important;
+
+    }
+
+    .section6 .container {
+        padding-left: 80px;
+        padding-right: 80PX
+    }
+
+    .contact-us-btn {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .section2-card {
+        margin-bottom: 10px;
+    }
+
+    .section2 .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .section4 .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .section5 .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    .section1-first-col {
+        padding-top: 270px !important
+    }
+
+    .section1 {
+        height: 1280px;
+    }
+
+
+    .section1-first-col-headline {
+
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        vertical-align: top;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+
+
+
+    }
+
+    .section1-first-col {
+        text-align: center;
+    }
+
+    .login-link,
+    .become-member-btn {
+        display: none !important;
+
+    }
+
+    .nav-link {
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 45px;
+        vertical-align: top;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-top: 10px !important;
+
+
+
+    }
+
+    .navbar-nav {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .navbar {
+        background-color: #252B42 !important;
+    }
+
+}
+
+@media screen and (max-width:1199px) and (min-width:991px) {
+    .section1-last-col {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+
+}
+
+@media screen and (max-width:1399px) and (min-width:1199px) {
+    .section1-last-col {
+        padding-top: 220px !important;
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .section3-card {
+        display: block !important;
+
+    }
+
+    .social-link-container-2 {
+        display: block !important;
+        margin-top: 25px;
+        margin-bottom: 25px
+    }
+
+    .social-link-container-1 {
+        display: none !important;
+    }
+
+
+    .footer-section-1 .container,
+    .footer-section-2 .container {
+        padding-left: 50px;
+        padding-right: 50px
+    }
+
+    .section5-card>div {
+        width: 100%;
+    }
+
+
+    .section5-card {
+        display: block !important;
+    }
+
+    .section3 .container {
+        padding-left: 50px;
+        padding-right: 50px
+    }
+
+    .section3-card-img-1 {
+        content: url("../images/people3.png");
+        width: 100%
+    }
+
+    .section3-card-img-2 {
+        content: url("../images/people4.png");
+        width: 100%
+    }
+
+    .section5-card-right-div {
+        padding-left: 0;
+    }
+
+    .try-for-free-btn {
+        width: auto;
+    }
+
+    .phone-icon {
+        content: url("../images/phone-blue.png")
+    }
+
+    .location-icon {
+        content: url("../images/location-blue.png")
+    }
+
+    .mail-icon {
+        content: url("../images/mail-blue.png")
+    }
+
+
+
+}

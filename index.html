@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fig 3</title>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" type="image/png" href="images/fav.png">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <nav class="navbar navbar-expand-lg   p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">BrandName</a>
+            <div>
+                <button style="box-shadow:none;" class="navbar-toggler  rounded-pill" data-bs-toggle="collapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="images/search.png">
+                </button>
+                <button style="box-shadow:none;" class="navbar-toggler  rounded-pill" data-bs-toggle="collapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="images/cart.png">
+                </button>
+                <button style="box-shadow:none;" class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <img src="images/menu.png">
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex nav-form" role="search">
+
+                    <ul class="navbar-nav   mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link login-link" href="#">Login
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <button class="become-member-btn" type="submit">
+                        Become a member
+                        <img style="margin-top:-3px;margin-left:5px !important" src="images/right-arrow.png">
+                        <!-- <i style="font-size: 18px; " class="bi bi-arrow-right-short"></i> -->
+
+
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  section1-first-col pt-5">
+                    <h1 class="section1-first-col-headline">Beautiful Solutions</h1>
+                    <p class="section1-first-col-sub-headline">We know how large objects will act,
+                        but things on a small scale.</p>
+                    <div class="d-flex hero-btn-container">
+                        <div> <button class="get-quote-now-btn rounded-pill">Get Quote Now</button></div>
+                        <div> <button class="learn-more-btn rounded-pill">Learn More</button></div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+
+                </div>
+                <div class="col-lg-4 section1-last-col">
+                    <div style="border-radius: 10px;" class="form-container card p-4">
+                        <div class="card-body">
+                            <form class="booking-form">
+                                <h2 class="form-title">Book Appointment</h2>
+                                <div class="mb-2">
+                                    <label for="name" class="form-label">Name *</label>
+                                    <input placeholder="Full Name * " type="text" class="form-control" id="name">
+                                </div>
+
+                                <div class="mb-2">
+                                    <label for="email" class="form-label">Email address *</label>
+                                    <input placeholder="example@gmail.com" type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-2">
+                                    <label for="please-select" class="form-label">Departement *</label>
+                                    <select id="please-select" class="form-select">
+                                        <option>Please Select</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="time" class="form-label">Time *</label>
+                                    <select id="time" class="form-select">
+                                        <option>4:00 Available</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+
+                                    </select>
+                                </div>
+
+                                <button type="submit" class="booking-btn">Book Appointment</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2 pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section2-headline">Better Strategy</h2>
+                    <p class="section2-sub-headline">Problems trying to resolve the conflict between
+                        the two major realms of Classical physics: Newtonian mechanics </p>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+
+
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <div style="background-color: #FAFAFA;" class="d-flex p-3 rounded section2-card">
+                        <div> <img src="images/team.png"></div>
+                        <p class="section2-card-text">Investment Trading</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div style="background-color: #FAFAFA;" class="d-flex p-3 rounded section2-card">
+                        <div> <img src="images/team.png"></div>
+                        <p class="section2-card-text">Support On Raising Funds</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div style="background-color: #FAFAFA;" class="d-flex p-3 rounded section2-card">
+                        <div> <img src="images/team.png"></div>
+                        <p class="section2-card-text">Financial Analysis</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pb-5">
+                <div class="col-lg-4">
+                    <div style="background-color: #FAFAFA;" class="d-flex p-3 rounded section2-card">
+                        <div> <img src="images/team.png"></div>
+                        <p class="section2-card-text">Taxation Planning</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div style="background-color: #FAFAFA;" class="d-flex p-3 rounded section2-card">
+                        <div> <img src="images/team.png"></div>
+                        <p class="section2-card-text">Save money and tim</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div style="background-color: #FAFAFA;" class="d-flex p-3 rounded section2-card">
+                        <div> <img src="images/team.png"></div>
+
+                        <p class="section2-card-text">Outsourced Consulting Business</p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top:-20px" class="d-flex  hero-btn-container">
+                <div> <button class="get-quote-now-btn rounded-pill mb-4">Get Quote Now</button></div>
+                <div> <button class="learn-more-btn rounded-pill">Learn More</button></div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="section3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3">
+
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="section3-headline">What Clients Say</h1>
+                    <p class="section3-sub-headline">Problems trying to resolve the conflict between
+                        the two major realms of Classical physics: Newtonian mechanics </p>
+                </div>
+                <div class="col-lg-3"></div>
+
+            </div>
+            <div class="row mb-4 mt-4 gy-4">
+                <div class="col-lg-6">
+                    <div class="section3-card d-flex">
+
+                        <img class="section3-card-img-1" style="object-fit: cover; height: auto;"
+                            src="images/people.png">
+
+                        <div class="section3-card-right-div">
+                            <h2 class="section3-card-title">Regina Miles</h2>
+                            <p class="section3-card-sub-title">Designer</p>
+                            <div> <img src="images/stars.png" alt="rating-img"> </div>
+
+                            <p class="section3-card-text">This proved to be impossible using
+                                concepts of space and time. Einstein
+                                new view of time first and then</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="section3-card d-flex">
+
+                        <img class="section3-card-img-2" style="object-fit: cover; height: auto;"
+                            src="images/people2.png">
+
+                        <div class="section3-card-right-div">
+                            <h2 class="section3-card-title">Regina Miles</h2>
+                            <p class="section3-card-sub-title">Designer</p>
+                            <div> <img src="images/stars.png" alt="rating-img"></div>
+
+                            <p class="section3-card-text">This proved to be impossible using
+                                concepts of space and time. Einstein
+                                new view of time first and then</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3"> </div>
+                <div class="col-lg-6 text-center">
+                    <h1 class="section4-headline">FAQ</h1>
+                    <p class="section4-sub-headline">Problems trying to resolve the conflict between
+                        the two major realms of Classical physics: Newtonian mechanics </p>
+                </div>
+                <div class="col-lg-3"></div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded  p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded  p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section4-card d-flex rounded  p-3">
+                        <div class="px-3">
+                            <img src="images/blue-arrow.png">
+                        </div>
+                        <div>
+                            <h5 class="section4-card-headline"> the quick fox jumps over the
+                                lazy dog </h5>
+                            <p class="section4-card-text">Things on a very small scale
+                                behave like nothing </p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="section5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                    <h1 class="section5-headline">Pricing</h1>
+                    <p class="section5-sub-headline">Problems trying to resolve the conflict between
+                        the two major realms of Classical physics: Newtonian mechanics </p>
+
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-6 px-3">
+                    <div class="section5-card d-flex p-3">
+                        <div>
+                            <h1 class="section5-card-headline">FREE</h1>
+                            <p class="section5-card-text">Most calendars are designed
+                                for teams. Slate is designed
+                                for freelancers who want
+                                a simple way </p>
+
+                        </div>
+
+                        <div class="section5-card-right-div">
+                            <div class="d-flex">
+                                <div>
+                                    <h1 class="price">0</h1>
+                                </div>
+                                <div class="px-2">
+                                    <p class="dollar-sign">$</p>
+                                    <p class="section5-card-per-month">Per Month</p>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="try-for-free-btn">Try for free</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-6 px-3">
+                    <div class="section5-card d-flex p-3">
+                        <div>
+                            <h1 class="section5-card-headline">STANDARD</h1>
+                            <p class="section5-card-text">Most calendars are designed
+                                for teams. Slate is designed
+                                for freelancers who want
+                                a simple way </p>
+
+                        </div>
+
+                        <div class="section5-card-right-div">
+                            <div class="d-flex">
+                                <div>
+                                    <h1 class="price">19</h1>
+                                </div>
+                                <div class="px-2">
+                                    <p class="dollar-sign">$</p>
+                                    <p class="section5-card-per-month">Per Month</p>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="try-for-free-btn">Try for free</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color:#FAFAFA; margin-top:90px" class="section6">
+        <div class="container">
+            <div class="row pt-5 pb-4">
+                <div class="col-lg-6">
+                    <h2 class="section6-headline">Consulting Agency For Your Business</h2>
+                    <p class="section6-sub-headline">the quick fox jumps over the lazy dog</p>
+
+                </div>
+
+                <div class="col-lg-6 text-center section6-right-col ">
+                    <button class="contact-us-btn">Contact Us</button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="footer-section-1">
+            <div class="container pt-5 pb-4">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h1 class="footer-title">Company Info</h1>
+                        <p><a class="footer-link" href="">About Us </a></p>
+                        <p><a class="footer-link" href="">Carrier</a></p>
+                        <p><a class="footer-link" href="">We are hiring</a></p>
+                        <p><a class="footer-link" href="">Blog</a></p>
+
+
+                    </div>
+                    <div class="col-lg-2">
+                        <h1 class="footer-title">Legal</h1>
+                        <p><a class="footer-link" href="">About Us </a></p>
+                        <p><a class="footer-link" href="">Carrier</a></p>
+                        <p><a class="footer-link" href="">We are hiring</a></p>
+                        <p><a class="footer-link" href="">Blog</a></p>
+
+
+                    </div>
+                    <div class="col-lg-2">
+                        <h1 class="footer-title">Features</h1>
+                        <p><a class="footer-link" href="">Business Marketing </a></p>
+                        <p><a class="footer-link" href="">User Analytic</a></p>
+                        <p><a class="footer-link" href="">Live Chat</a></p>
+                        <p><a class="footer-link" href="">Unlimited Support</a></p>
+
+
+                    </div>
+                    <div class="col-lg-2">
+                        <h1 class="footer-title">Resources</h1>
+                        <p><a class="footer-link" href="">IOS & Android </a></p>
+                        <p><a class="footer-link" href="">Watch a Demo</a></p>
+                        <p><a class="footer-link" href="">Customers</a></p>
+                        <p><a class="footer-link" href="">API</a></p>
+
+
+                    </div>
+                    <div class="col-lg-2">
+                        <h1 class="footer-title">Get In Touch</h1>
+                        <div class="d-flex">
+                            <div><img class="phone-icon" src="images/phone.png"> </div>
+                            <p class="footer-contact-info px-2">(480) 555-0103 </p>
+
+                        </div>
+
+                        <div class="d-flex">
+                            <div><img class="location-icon" src="images/location.png"> </div>
+                            <p class="footer-contact-info px-2"> 4517 Washington Ave. </p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><img class="mail-icon" src="images/mail.png"> </div>
+                            <p class="footer-contact-info px-2"> debra.holt@example.com </p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+
+            </div>
+
+        </section>
+        <section style="background-color: #FAFAFA;" class="footer-section-2">
+            <div class="container pt-4 pb-3">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h6 class="copyright-headline">Made With Love By Figmaland All Right Reserved </h6>
+
+                    </div>
+                    <div class="col-lg-3">
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="social-link-container-1">
+                            <a class="" href=""><img src="images/facebook.png"></a>
+                            <a class="px-3" href=""><img src="images/instagram.png"></a>
+                            <a class="" href=""><img src="images/twitter.png"></a>
+
+                        </div>
+
+                        <div class="social-link-container-2 d-none">
+                            <a class="pe-3" href=""><img src="images/facebook2.png"></a>
+                            <a class="pe-3" href=""><img src="images/insta2.png"></a>
+                            <a class="pe-3" href=""><img src="images/twitter.png"></a>
+                            <a class="" href=""><img src="images/yt.png"></a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
