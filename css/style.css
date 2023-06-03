@@ -584,6 +584,9 @@ body {
 
 
 @media screen and (max-width:1199px) {
+    .section2 .learn-more-btn {
+        margin-left: 0
+    }
 
     .hero-btn-container {
         display: block !important;
@@ -781,4 +784,20 @@ body {
 
 
 
+}
+
+
+@media screen and (max-width:449.50px) {
+
+    .navbar-brand {
+        padding-right: 0;
+    }
+
+    .navbar-btn {
+        padding: 3px !important;
+    }
+
+    .menu-btn {
+        margin-right: -10px;
+    }
 }
